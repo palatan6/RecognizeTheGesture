@@ -1,5 +1,11 @@
 ﻿using UnityEngine;
 
+/// <summary>
+/// Класс отвечает за основную работу с шаблонами фигур.
+/// Подгружает шаблоны из папки. Получает точки из вне и отдаёт их 
+/// на сравнение с шаблоном.
+/// </summary>
+
 public class ShapesModel : AbstractShapesModel
 {
     [SerializeField]

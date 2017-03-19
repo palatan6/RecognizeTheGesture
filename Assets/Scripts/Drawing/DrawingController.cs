@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Класс отвечает за связь поля для рисования с его моделью.
+/// Так же сохраняет точки от ввода пользователя.
+/// </summary>
+
 public class DrawingController : MonoBehaviour
 {
     public AbstractDrawingModel drawingModel;

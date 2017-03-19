@@ -2,6 +2,11 @@
 using UnityEngine;
 using System.Collections;
 
+/// <summary>
+/// Класс отвечает основу игры.
+/// Сменяет раунд за раундом. Стартует и прекращает игровой процесс.
+/// </summary>
+
 public class GameplayModel : AbstarctGamePlayModel
 {
     [SerializeField]

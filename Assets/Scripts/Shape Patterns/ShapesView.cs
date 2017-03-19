@@ -1,6 +1,11 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Класс отвечает за отрисовку поступающих
+/// шаблонов фигур
+/// </summary>
+
 public class ShapesView : AbstractShapesView
 {
     [SerializeField]

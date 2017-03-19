@@ -2,6 +2,11 @@
 using System.Collections;
 using System;
 
+/// <summary>
+/// Класс связывает модель и внешний вид 
+/// основного цикла игры
+/// </summary>
+
 public class GamePlayController : MonoBehaviour
 {
     public AbstractGamePlayView gamePlayView;

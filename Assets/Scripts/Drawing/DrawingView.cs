@@ -2,6 +2,11 @@
 using UnityEngine;
 using UnityEngine.EventSystems;
 
+/// <summary>
+/// Класс отвечает за внешний вид панели рисования.
+/// Так же обрабатывает ивенты получаемые от взаимодействия с пользователем.
+/// </summary>
+
 public class DrawingView : AbstractDrawingView, IPointerDownHandler, IPointerUpHandler
 {
     [SerializeField]

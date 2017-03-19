@@ -1,5 +1,11 @@
 ﻿using UnityEngine;
 
+/// <summary>
+/// Класс хранит данные шаблона фигуры.
+/// Также определяет совпадает ли пришедший список точек
+/// с фигурой шаблона
+/// </summary>
+
 [CreateAssetMenu(menuName = "ShapePattern")]
 public class ShapePattern : ScriptableObject
 {

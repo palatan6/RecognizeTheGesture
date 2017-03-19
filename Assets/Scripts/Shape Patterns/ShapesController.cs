@@ -1,5 +1,14 @@
 ﻿using UnityEngine;
 
+/// <summary>
+/// Класс связывает работу модели шаблонов фигур
+/// и его панель для отрисовки.
+/// 
+/// Так же здесь происходит обмен информацией с другими блоками
+/// игры.
+/// 
+/// </summary>
+
 public class ShapesController : MonoBehaviour
 {
     public AbstractShapesModel shapesModel;

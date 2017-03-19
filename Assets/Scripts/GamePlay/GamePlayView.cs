@@ -3,6 +3,12 @@ using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 
+/// <summary>
+/// Класс отвечает за отображение внешнего вида игры.
+/// Включает-выключает окна игры.
+/// Ведёт счётчик. Показывает сигналы.
+/// </summary>
+
 public class GamePlayView : AbstractGamePlayView
 {
     [SerializeField]
@@ -54,16 +60,6 @@ public class GamePlayView : AbstractGamePlayView
             }
         }
     }
-
-    // Use this for initialization
-    void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
 
     public override void OnGameOver()
     {
